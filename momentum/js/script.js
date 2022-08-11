@@ -1,9 +1,6 @@
 window.onload = () => {
-    // Time
+    // Time, Date and Greeting
     showTime();
-    
-    // Greeting
-    // sayHello();
 }
 
 const showTime = () => {
@@ -12,6 +9,7 @@ const showTime = () => {
 
     time.textContent = date.toLocaleTimeString();
     showDate();
+    showGreeting();
     setTimeout(showTime, 1000);
 }
 
@@ -23,9 +21,30 @@ const showDate = () => {
     currentDate.textContent = date.toLocaleDateString('en-US', options);
 }
 
-/*
-const sayHello = () => {
-    const hello = document.querySelector('.greeting');
 
+const showGreeting = () => {
+    const hello = document.querySelector('.greeting');
+    const timeOfDay = getTimeOfDay();
+
+    hello.textContent = `Good ${timeOfDay}, `;
 }
-*/
+
+const getTimeOfDay = () => {
+    const date = new Date();
+    const hours = date.getHours();
+    return hours < 18 ? hours < 12 ? hours < 6 ? 'night' : 'morning' : 'day' : 'evening';
+}
+
+const setLocalStorage = () => {
+    const name = document.querySelector('.name');
+    localStorage.setItem('name', name.value);
+}
+window.addEventListener('beforeunload', setLocalStorage);
+
+const getLocalStorage = () => {
+    let name = document.querySelector('.name');
+    if(localStorage.getItem('name')) {
+      name.value = localStorage.getItem('name');
+    }
+}
+window.addEventListener('load', getLocalStorage);
