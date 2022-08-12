@@ -9,6 +9,9 @@ window.onload = () => {
 
     // Weather Forecast
     addWeather();
+
+    // Quotes of the Day
+    addQuotes();
 }
 
 const showTime = () => {
@@ -121,4 +124,23 @@ const getWeather = async () => {
 const addWeather = () => {
     const city = document.querySelector('.city');
     city.addEventListener('change', getWeather);
+}
+
+const getQuotes = async () => {  
+    const quotes = 'data.json';
+    const res = await fetch(quotes);
+    const data = await res.json(); 
+    const randomNum = getRandomNum(0, data.length);
+    const quote = document.querySelector('.quote');
+    const author = document.querySelector('.author');
+
+    quote.textContent = data[randomNum].quoteText;
+    author.textContent = data[randomNum].quoteAuthor;
+}
+
+const addQuotes = () => {
+    const refresh = document.querySelector('.change-quote');
+    
+    getQuotes();
+    refresh.addEventListener('click', getQuotes);
 }
