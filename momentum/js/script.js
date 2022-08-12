@@ -6,6 +6,9 @@ window.onload = () => {
 
     // Background Slider
     addSlider();
+
+    // Weather Forecast
+    addWeather();
 }
 
 const showTime = () => {
@@ -42,14 +45,23 @@ const getTimeOfDay = () => {
 
 const setLocalStorage = () => {
     const name = document.querySelector('.name');
+    const city = document.querySelector('.city');
+
     localStorage.setItem('name', name.value);
+    localStorage.setItem('city', city.value);
 }
 window.addEventListener('beforeunload', setLocalStorage);
 
 const getLocalStorage = () => {
     let name = document.querySelector('.name');
+    let city = document.querySelector('.city');
+
     if(localStorage.getItem('name')) {
       name.value = localStorage.getItem('name');
+    }
+    if(localStorage.getItem('city')) {
+        city.value = localStorage.getItem('city');
+        getWeather();
     }
 }
 window.addEventListener('load', getLocalStorage);
@@ -89,3 +101,24 @@ const addSlider = () => {
     slideNext.addEventListener('click', getSlideNext);
     slidePrev.addEventListener('click', getSlidePrev);
 };
+
+const getWeather = async () => {
+    const city = document.querySelector('.city');
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city.value}&lang=en&appid=8e4775bf4186183822b834b4218694e4&units=metric`;
+    const res = await fetch(url);
+    const data = await res.json(); 
+
+    const weatherIcon = document.querySelector('.weather-icon');
+    const temperature = document.querySelector('.temperature');
+    const weatherDescription = document.querySelector('.weather-description');
+
+    weatherIcon.className = 'weather-icon owf';
+    weatherIcon.classList.add(`owf-${data.weather[0].id}`);
+    temperature.textContent = `${data.main.temp}°C`;
+    weatherDescription.textContent = data.weather[0].description;
+}
+
+const addWeather = () => {
+    const city = document.querySelector('.city');
+    city.addEventListener('change', getWeather);
+}
