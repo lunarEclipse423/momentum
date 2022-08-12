@@ -1,4 +1,10 @@
+import playList from '../playList.js';
+
+const audio = new Audio();
+
 let num;
+let playNum = 0;
+let isPlay = false;
 
 window.onload = () => {
     // Time, Date and Greeting
@@ -12,6 +18,9 @@ window.onload = () => {
 
     // Quotes of the Day
     addQuotes();
+
+    // Audio Player
+    addAudio();
 }
 
 const showTime = () => {
@@ -143,4 +152,60 @@ const addQuotes = () => {
     
     getQuotes();
     refresh.addEventListener('click', getQuotes);
+}
+
+const playAudio = () => {
+    audio.src = playList[playNum].src;
+    audio.currentTime = 0;
+
+    if (!isPlay) {
+        audio.play();
+        isPlay = true;
+    } else {
+        audio.pause();
+        isPlay = false;
+    }  
+}
+
+const toggleAudioBtn = () => {
+    const play = document.querySelector('.play');
+    if (!isPlay) {
+        play.classList.remove('pause');
+    } else {
+        play.classList.add('pause');
+    }
+}
+
+const playNext = () => {
+    playAudio();
+    playNum = playNum === playList.length - 1 ? 0 : playNum += 1;
+    playAudio();
+}
+
+const playPrev = () => {
+    playAudio();
+    playNum = playNum === 0 ? playList.length - 1 : playNum -= 1;
+    playAudio();
+}
+
+const createPlayList = () => {
+    const playListContainer = document.querySelector('.play-list');
+    playList.forEach(el => {
+        const li = document.createElement('li');
+        li.classList.add('play-item');
+        li.textContent = el.title;
+        playListContainer.append(li);
+    });
+}
+
+const addAudio = () => {
+    const play = document.querySelector('.play');
+    const playNextBtn = document.querySelector('.play-next');
+    const playPrevBtn = document.querySelector('.play-prev');
+
+    createPlayList();
+    play.addEventListener('click', playAudio);
+    play.addEventListener('click', toggleAudioBtn);
+    playNextBtn.addEventListener('click', playNext);
+    playPrevBtn.addEventListener('click', playPrev);
 }
