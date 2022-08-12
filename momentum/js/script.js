@@ -1,6 +1,11 @@
+let num;
+
 window.onload = () => {
     // Time, Date and Greeting
     showTime();
+
+    // Background Slider
+    addSlider();
 }
 
 const showTime = () => {
@@ -32,7 +37,7 @@ const showGreeting = () => {
 const getTimeOfDay = () => {
     const date = new Date();
     const hours = date.getHours();
-    return hours < 18 ? hours < 12 ? hours < 6 ? 'night' : 'morning' : 'day' : 'evening';
+    return hours < 18 ? hours < 12 ? hours < 6 ? 'night' : 'morning' : 'afternoon' : 'evening';
 }
 
 const setLocalStorage = () => {
@@ -48,3 +53,39 @@ const getLocalStorage = () => {
     }
 }
 window.addEventListener('load', getLocalStorage);
+
+const getRandomNum = (min, max) => {
+    return Math.floor(Math.random() * (max - min) + min);
+}
+
+const setBg = () => {
+    const timeOfDay = getTimeOfDay();
+    const bgNum = num > 10 ? num : num.toString().padStart(2, '0');
+    const body = document.querySelector('body');
+    const img = new Image();
+
+    img.src = `https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/${timeOfDay}/${bgNum}.jpg`;
+    img.onload = () => {      
+      body.style.backgroundImage = `url('${img.src}')`;
+    };
+}
+
+const getSlideNext = () => {
+    num = num === 20 ? 1 : num += 1;
+    setBg();
+}
+
+const getSlidePrev = () => {
+    num = num === 1 ? 20 : num -= 1;
+    setBg();
+}
+
+const addSlider = () => {
+    const slideNext = document.querySelector('.slide-next');
+    const slidePrev = document.querySelector('.slide-prev');
+
+    num = getRandomNum(1, 21);
+    setBg();
+    slideNext.addEventListener('click', getSlideNext);
+    slidePrev.addEventListener('click', getSlidePrev);
+};
