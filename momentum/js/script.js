@@ -123,11 +123,15 @@ const getWeather = async () => {
     const weatherIcon = document.querySelector('.weather-icon');
     const temperature = document.querySelector('.temperature');
     const weatherDescription = document.querySelector('.weather-description');
+    const windSpeed = document.querySelector('.wind-speed');
+    const humidity = document.querySelector('.humidity');
 
     weatherIcon.className = 'weather-icon owf';
     weatherIcon.classList.add(`owf-${data.weather[0].id}`);
-    temperature.textContent = `${data.main.temp}°C`;
+    temperature.textContent = `${Math.floor(data.main.temp)}°C`;
     weatherDescription.textContent = data.weather[0].description;
+    windSpeed.textContent = `Wind speed: ${Math.floor(data.wind.speed)} m/s`;
+    humidity.textContent = `Humidity: ${data.main.humidity}%`;
 }
 
 const addWeather = () => {

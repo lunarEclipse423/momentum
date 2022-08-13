@@ -139,6 +139,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   column-gap: 12px;
+  row-gap: 6px;
 }
 
 .weather-icon {
