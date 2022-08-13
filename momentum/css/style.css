@@ -129,7 +129,15 @@ body {
   text-align: left;
 }
 
+.error {
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+  color: #D8000C;
+  background-color: #FFBABA;
+}
+
 .weather-error {
+  width: 170px;
   margin-top: -10px;
 }
 

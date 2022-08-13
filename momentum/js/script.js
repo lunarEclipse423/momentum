@@ -41,7 +41,6 @@ const showDate = () => {
     currentDate.textContent = date.toLocaleDateString('en-US', options);
 }
 
-
 const showGreeting = () => {
     const hello = document.querySelector('.greeting');
     const timeOfDay = getTimeOfDay();
@@ -74,6 +73,8 @@ const getLocalStorage = () => {
     if(localStorage.getItem('city')) {
         city.value = localStorage.getItem('city');
         getWeather();
+    } else {
+        generateWeatherError();
     }
 }
 window.addEventListener('load', getLocalStorage);
@@ -116,6 +117,15 @@ const addSlider = () => {
 
 const getWeather = async () => {
     const city = document.querySelector('.city');
+    if (city.value === '' ||  !/^[a-zA-Z]+$/.test(city.value)) {
+        generateWeatherError();
+        return;
+    } else {
+        const error = document.querySelector('.weather-error');
+        error.classList.remove('error');
+        error.textContent = '';
+    }
+
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city.value}&lang=en&appid=8e4775bf4186183822b834b4218694e4&units=metric`;
     const res = await fetch(url);
     const data = await res.json(); 
@@ -132,6 +142,24 @@ const getWeather = async () => {
     weatherDescription.textContent = data.weather[0].description;
     windSpeed.textContent = `Wind speed: ${Math.floor(data.wind.speed)} m/s`;
     humidity.textContent = `Humidity: ${data.main.humidity}%`;
+}
+
+const generateWeatherError = () => {
+    const weatherIcon = document.querySelector('.weather-icon');
+    const temperature = document.querySelector('.temperature');
+    const weatherDescription = document.querySelector('.weather-description');
+    const windSpeed = document.querySelector('.wind-speed');
+    const humidity = document.querySelector('.humidity');
+
+    weatherIcon.className = 'weather-icon owf';
+    temperature.textContent = '';
+    weatherDescription.textContent = '';
+    windSpeed.textContent = '';
+    humidity.textContent = '';
+
+    const error = document.querySelector('.weather-error');
+    error.classList.add('error');
+    error.textContent = 'Error: invalid city value. Try again';
 }
 
 const addWeather = () => {
