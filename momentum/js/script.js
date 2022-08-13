@@ -209,14 +209,14 @@ const toggleAudioBtn = () => {
 }
 
 const playNext = () => {
-    playAudio();
     playNum = playNum === playList.length - 1 ? 0 : playNum += 1;
+    isPlay = false;
     playAudio();
 }
 
 const playPrev = () => {
-    playAudio();
     playNum = playNum === 0 ? playList.length - 1 : playNum -= 1;
+    isPlay = false;
     playAudio();
 }
 
@@ -230,14 +230,29 @@ const createPlayList = () => {
     });
 }
 
+const isPlaying = () => {
+    const playItems = document.querySelectorAll('.play-item');
+    playItems.forEach(el => {
+        el.classList.remove('play-item_active');
+    });
+    playItems[playNum].classList.add('play-item_active');
+}
+
 const addAudio = () => {
     const play = document.querySelector('.play');
     const playNextBtn = document.querySelector('.play-next');
     const playPrevBtn = document.querySelector('.play-prev');
 
     createPlayList();
+
+    audio.addEventListener('ended', playNext);
+    audio.addEventListener('playing', isPlaying);
+    
     play.addEventListener('click', playAudio);
-    play.addEventListener('click', toggleAudioBtn);
     playNextBtn.addEventListener('click', playNext);
     playPrevBtn.addEventListener('click', playPrev);
+
+    play.addEventListener('click', toggleAudioBtn);
+    playNextBtn.addEventListener('click', toggleAudioBtn);
+    playPrevBtn.addEventListener('click', toggleAudioBtn);
 }

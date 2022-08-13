@@ -53,6 +53,10 @@ body {
   transition: .3s;
 }
 
+.play-item_active {
+  color:#C5B358;
+}
+
 .play-item:hover {
   opacity: 1;
 }
