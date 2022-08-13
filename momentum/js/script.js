@@ -88,7 +88,7 @@ const setBg = () => {
     const body = document.querySelector('body');
     const img = new Image();
 
-    img.src = `https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/${timeOfDay}/${bgNum}.jpg`;
+    img.src = `https://raw.githubusercontent.com/lunarEclipse423/stage1-tasks/assets/images/${timeOfDay}/${bgNum}.jpg`;
     img.onload = () => {      
       body.style.backgroundImage = `url('${img.src}')`;
     };
