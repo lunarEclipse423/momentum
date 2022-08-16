@@ -28,11 +28,6 @@ const playList = [
         title: 'Reiner, sit down',
         src: './assets/sounds/Reiner, sit down.mp3',
         duration: '00:22'
-    }, 
-    {
-        title: 'Shot',
-        src: './assets/sounds/shot.mp3',
-        duration: '00:02'
     },
 ];
 

@@ -19,6 +19,7 @@ body {
   background: center/cover, rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
   transition: background-image 1s ease-in-out;
+  overflow-x: hidden;
 }
 
 .header {
@@ -31,22 +32,123 @@ body {
   padding: 20px;
 }
 
+.song-name {
+  padding-bottom: 6px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+}
+
 .player-controls {
+  width: 55%;
+  margin: 5px 25px 18px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 120px;
-  margin-bottom: 28px;
 }
 
+.controls_more-music-icon {
+  margin-bottom: 5px;
+}
+
+/* Play-list widget */
+
+.widget {
+  position: absolute;
+  top: 130px;
+  left: 20px;
+}
+
+.widget-container {
+  width: 250px;
+  height: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(90deg, #ff74a4 0%, #9f6ea3 100%);
+  border-radius: 10px;
+  z-index: -100;
+  transition: all .5s ease-in-out;
+  opacity: 0;
+}
+
+.widget_active {
+  z-index: 100;
+}
+
+.widget-play-list_active {
+  opacity: 1;
+  transform: translateY(45px);
+  z-index: 123456;
+}
+
+/* Volume */
+
+.slider_container{
+  margin-top: 15px;
+  margin-right: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.volume-up {
+  cursor: pointer;
+  background-image: url("../assets/svg/volume-high.svg");
+}
+
+.volume-off {
+  background-image: url("../assets/svg/volume-off.svg");
+}
+
+.volume-slider {
+  appearance: none;
+  width: 30%;
+  height: 5px;
+  background: #f0f0f0;
+  background-image: linear-gradient(90deg, #ff74a4 0%, #9f6ea3 100%);
+  border-radius: 50px;
+  transition: opacity .2s;
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.volume-slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background: linear-gradient(90deg, #ff74a4 0%, #9f6ea3 100%);
+  border-radius: 50px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.slider_container:hover .volume-slider::-webkit-slider-thumb {
+  opacity: 1;
+}
+
+/* Playlist */
+
 .play-list {
+  display: none;
   text-align: left;
+}
+
+.play-list_active {
+  display: block;
 }
 
 .play-item {
   position: relative;
   padding: 5px;
-  padding-left: 20px;
+  padding-left: 10px;
   list-style: none;
   opacity: .8;
   cursor: pointer;
@@ -54,19 +156,11 @@ body {
 }
 
 .play-item_active {
-  color: #debd68;
+  color: #F9F871;
 }
 
 .play-item:hover {
   opacity: 1;
-}
-
-.play-item::before {
-  content: "\2713";  
-  position: absolute;
-  left: 0;
-  top: 2px;
-  font-weight: 900;
 }
 
 .item-active::before {
@@ -75,7 +169,9 @@ body {
 
 .player-icon,
 .slider-icon,
-.change-quote {
+.change-quote,
+.volume-up,
+.more-music-icon {
   width: 32px;
   height: 32px;
   background-size: 32px 32px;
@@ -103,11 +199,22 @@ body {
   transform: scale(1.1);
 }
 
+.play-items-wrapper {
+  display: flex;
+  align-items: center;
+}
+
 .play {
   width: 40px;
   height: 40px;
   background-size: 40px 40px;
   background-image: url("../assets/svg/play.svg");
+}
+
+.small-play {
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
 }
 
 .pause {
@@ -120,6 +227,52 @@ body {
 
 .play-next {
   background-image: url("../assets/svg/play-next.svg");
+}
+
+.progress-area {
+  width: 250px;
+  height: 6px;
+  background: #f0f0f0;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.progress-bar {
+  /*width: 50%;*/
+  width: 0;
+  height: inherit;
+  position: relative;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #ff74a4 0%, #9f6ea3 100%);
+}
+
+.progress-bar::before {
+  content: "";
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  border-radius: inherit;
+  top: 50%;
+  right: -5px;
+  transform: translateY(-50%);
+  background: inherit;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.progress-area:hover .progress-bar::before {
+  opacity: 1;
+}
+
+.timer {
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.timer span {
+  font-size: 14px;
 }
 
 .weather {
