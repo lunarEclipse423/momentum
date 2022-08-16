@@ -1,273 +1,423 @@
 [
   {
-  "quoteText": "Genius is one percent inspiration and ninety-nine percent perspiration.",
-  "quoteAuthor": "Thomas Edison"
+  "quoteTextEn": "Genius is one percent inspiration and ninety-nine percent perspiration",
+  "quoteAuthorEn": "Thomas Edison",
+  "quoteTextRu": "Гений — это один процент вдохновения и девяносто девять процентов пота",
+  "quoteAuthorRu": "Томас Эдисон"
   }, {
-  "quoteText": "You can observe a lot just by watching.",
-  "quoteAuthor": "Yogi Berra"
+  "quoteTextEn": "You can observe a lot just by watching",
+  "quoteAuthorEn": "Yogi Berra",
+  "quoteTextRu": "Вы можете многое заметить, просто наблюдая",
+  "quoteAuthorRu": "Йоги Берра"
   }, {
-  "quoteText": "A house divided against itself cannot stand.",
-  "quoteAuthor": "Abraham Lincoln"
+  "quoteTextEn": "A house divided against itself cannot stand",
+  "quoteAuthorEn": "Abraham Lincoln",
+  "quoteTextRu": "Дом, разделившийся сам в себе, не может устоять",
+  "quoteAuthorRu": "Абрахам Линкольн"
   }, {
-  "quoteText": "Difficulties increase the nearer we get to the goal.",
-  "quoteAuthor": "Johann Wolfgang von Goethe"
+  "quoteTextEn": "Difficulties increase the nearer we get to the goal",
+  "quoteAuthorEn": "Johann Wolfgang von Goethe",
+  "quoteTextRu": "Трудности возрастают по мере приближения к цели",
+  "quoteAuthorRu": "Иоганн Вольфганг фон Гёте"
   }, {
-  "quoteText": "Fate is in your hands and no one elses",
-  "quoteAuthor": "Byron Pulsifer"
+  "quoteTextEn": "Fate is in your hands and no one elses",
+  "quoteAuthorEn": "Byron Pulsifer",
+  "quoteTextRu": "Судьба в ваших руках и ни в чьих других",
+  "quoteAuthorRu": "Байрон Пулсифер"
   }, {
-  "quoteText": "Be the chief but never the lord.",
-  "quoteAuthor": "Lao Tzu"
+  "quoteTextEn": "Be the chief but never the lord",
+  "quoteAuthorEn": "Lao Tzu",
+  "quoteTextRu": "Будь вождем, но никогда не господином",
+  "quoteAuthorRu": "Лао-Цзы"
   }, {
-  "quoteText": "Nothing happens unless first we dream.",
-  "quoteAuthor": "Carl Sandburg"
+  "quoteTextEn": "Nothing happens unless first we dream",
+  "quoteAuthorEn": "Carl Sandburg",
+  "quoteTextRu": "Ничего не будет, если сначала нет мечты",
+  "quoteAuthorRu": "Карл Сэндберг"
   }, {
-  "quoteText": "Well begun is half done.",
-  "quoteAuthor": "Aristotle"
+  "quoteTextEn": "Well begun is half done",
+  "quoteAuthorEn": "Aristotle",
+  "quoteTextRu": "Хорошее начало - половина дела",
+  "quoteAuthorRu": "Аристотель"
   }, {
-  "quoteText": "Life is a learning experience, only if you learn.",
-  "quoteAuthor": "Yogi Berra"
+  "quoteTextEn": "Life is a learning experience, only if you learn",
+  "quoteAuthorEn": "Yogi Berra",
+  "quoteTextRu": "Жизнь — это опыт обучения, только если вы учитесь",
+  "quoteAuthorRu": "Йоги Берра"
   }, {
-  "quoteText": "Self-complacency is fatal to progress.",
-  "quoteAuthor": "Margaret Sangster"
+  "quoteTextEn": "Self-complacency is fatal to progress",
+  "quoteAuthorEn": "Margaret Sangster",
+  "quoteTextRu": "Самодовольство губительно для прогресса",
+  "quoteAuthorRu": "Маргарет Сангстер"
   }, {
-  "quoteText": "Peace comes from within. Do not seek it without.",
-  "quoteAuthor": "Buddha"
+  "quoteTextEn": "Peace comes from within. Do not seek it without.",
+  "quoteAuthorEn": "Buddha",
+  "quoteTextRu": "Мир приходит изнутри. Не ищите его вовне.",
+  "quoteAuthorRu": "Будда"
   }, {
-  "quoteText": "What you give is what you get.",
-  "quoteAuthor": "Byron Pulsifer"
+  "quoteTextEn": "What you give is what you get",
+  "quoteAuthorEn": "Byron Pulsifer",
+  "quoteTextRu": "Что посеешь, то и пожнешь",
+  "quoteAuthorRu": "Байрон Пулсифер"
   }, {
-  "quoteText": "We can only learn to love by loving.",
-  "quoteAuthor": "Iris Murdoch"
+  "quoteTextEn": "We can only learn to love by loving",
+  "quoteAuthorEn": "Iris Murdoch",
+  "quoteTextRu": "Мы можем научиться любить только любя",
+  "quoteAuthorRu": "Айрис Мердок"
   }, {
-  "quoteText": "Life is change. Growth is optional. Choose wisely.",
-  "quoteAuthor": "Karen Clark"
+  "quoteTextEn": "Life is change. Growth is optional. Choose wisely.",
+  "quoteAuthorEn": "Karen Clark",
+  "quoteTextRu": "Жизнь — это перемены. Рост необязателен. Выбирай с умом.",
+  "quoteAuthorRu": "Карен Кларк"
   }, {
-  "quoteText": "You'll see it when you believe it.",
-  "quoteAuthor": "Wayne Dyer"
+  "quoteTextEn": "You'll see it when you believe it",
+  "quoteAuthorEn": "Wayne Dyer",
+  "quoteTextRu": "Ты увидишь это, когда поверишь в это",
+  "quoteAuthorRu": "Уэйн Дайер"
   }, {
-  "quoteText": "To lead people walk behind them.",
-  "quoteAuthor": "Lao Tzu"
+  "quoteTextEn": "To lead people, walk behind them",
+  "quoteAuthorEn": "Lao Tzu",
+  "quoteTextRu": "Чтобы вести людей, иди за ними",
+  "quoteAuthorRu": "Лао-Цзы"
   }, {
-  "quoteText": "Having nothing, nothing can he lose.",
-  "quoteAuthor": "William Shakespeare"
+  "quoteTextEn": "Having nothing, nothing can he lose",
+  "quoteAuthorEn": "William Shakespeare",
+  "quoteTextRu": "Не имея ничего, он ничего не может потерять",
+  "quoteAuthorRu": "Уильям Шекспир"
   }, {
-  "quoteText": "Trouble is only opportunity in work clothes.",
-  "quoteAuthor": "Henry J. Kaiser"
+  "quoteTextEn": "Trouble is only opportunity in work clothes",
+  "quoteAuthorEn": "Henry J. Kaiser",
+  "quoteTextRu": "Беда - это только возможность в рабочей одежде",
+  "quoteAuthorRu": "Генри Дж. Кайзер"
   }, {
-  "quoteText": "A rolling stone gathers no moss.",
-  "quoteAuthor": "Publilius Syrus"
+  "quoteTextEn": "A rolling stone gathers no moss",
+  "quoteAuthorEn": "Publilius Syrus",
+  "quoteTextRu": "На катящемся камне мох не растет",
+  "quoteAuthorRu": "Публилий Сирус"
   }, {
-  "quoteText": "Ideas are the beginning points of all fortunes.",
-  "quoteAuthor": "Napoleon Hill"
+  "quoteTextEn": "Ideas are the beginning points of all fortunes",
+  "quoteAuthorEn": "Napoleon Hill",
+  "quoteTextRu": "Идеи - отправная точка любого бизнеса",
+  "quoteAuthorRu": "Наполеон Хилл"
   }, {
-  "quoteText": "Everything in life is luck.",
-  "quoteAuthor": "Donald Trump"
+  "quoteTextEn": "Everything in life is luck",
+  "quoteAuthorEn": "Donald Trump",
+  "quoteTextRu": "Все в жизни - это удача",
+  "quoteAuthorRu": "Дональд Трамп"
   }, {
-  "quoteText": "Doing nothing is better than being busy doing nothing.",
-  "quoteAuthor": "Lao Tzu"
+  "quoteTextEn": "Doing nothing is better than being busy doing nothing",
+  "quoteAuthorEn": "Lao Tzu",
+  "quoteTextRu": "Ничего не делать - лучше, чем быть занятым ничегонеделанием",
+  "quoteAuthorRu": "Лао-Цзы"
   }, {
-  "quoteText": "Trust yourself. You know more than you think you do.",
-  "quoteAuthor": "Benjamin Spock"
+  "quoteTextEn": "Trust yourself. You know more than you think you do.",
+  "quoteAuthorEn": "Benjamin Spock",
+  "quoteTextRu": "Доверяй себе. Ты знаешь больше, чем ты думаешь.",
+  "quoteAuthorRu": "Бенджамин Спок"
   }, {
-  "quoteText": "Study the past, if you would divine the future.",
-  "quoteAuthor": "Confucius"
+  "quoteTextEn": "Study the past, if you would divine the future",
+  "quoteAuthorEn": "Confucius",
+  "quoteTextRu": "Изучай прошлое, если хочешь предугадать будущее",
+  "quoteAuthorRu": "Конфуций"
   }, {
-  "quoteText": "From error to error one discovers the entire truth.",
-  "quoteAuthor": "Sigmund Freud"
+  "quoteTextEn": "From error to error one discovers the entire truth",
+  "quoteAuthorEn": "Sigmund Freud",
+  "quoteTextRu": "Переходя от ошибки к ошибке, человек открывает всю правду",
+  "quoteAuthorRu": "Зигмунд Фрейд"
   }, {
-  "quoteText": "Well done is better than well said.",
-  "quoteAuthor": "Benjamin Franklin"
+  "quoteTextEn": "Well done is better than well said",
+  "quoteAuthorEn": "Benjamin Franklin",
+  "quoteTextRu": "Хорошо сделать - лучше, чем хорошо сказать",
+  "quoteAuthorRu": "Бенджамин Франклин"
   }, {
-  "quoteText": "Bite off more than you can chew, then chew it.",
-  "quoteAuthor": "Ella Williams"
+  "quoteTextEn": "Bite off more than you can chew, then chew it",
+  "quoteAuthorEn": "Ella Williams",
+  "quoteTextRu": "Откуси больше, чем сможешь проглотить, а потом прожуй",
+  "quoteAuthorRu": "Элла Уильямс"
   }, {
-  "quoteText": "Work out your own salvation. Do not depend on others.",
-  "quoteAuthor": "Buddha"
+  "quoteTextEn": "Work out your own salvation. Do not depend on others.",
+  "quoteAuthorEn": "Buddha",
+  "quoteTextRu": "Создайте свое собственное спасение. Не полагайтесь на других.",
+  "quoteAuthorRu": "Будда"
   }, {
-  "quoteText": "One today is worth two tomorrows.",
-  "quoteAuthor": "Benjamin Franklin"
+  "quoteTextEn": "One today is worth two tomorrows",
+  "quoteAuthorEn": "Benjamin Franklin",
+  "quoteTextRu": "Одно сегодня стоит двух завтра",
+  "quoteAuthorRu": "Бенджамин Франклин"
   }, {
-    "quoteText": "Learning is a treasure that will follow its owner everywhere",
-    "quoteAuthor": "Chinese proverb"
+    "quoteTextEn": "Learning is a treasure that will follow its owner everywhere",
+    "quoteAuthorEn": "Chinese proverb",
+    "quoteTextRu": "Знание - это сокровище, которое повсюду будет сопровождать его обладателя",
+    "quoteAuthorRu": "Китайская пословица"
     }, {
-    "quoteText": "Be as you wish to seem.",
-    "quoteAuthor": "Socrates"
+    "quoteTextEn": "Be as you wish to seem",
+    "quoteAuthorEn": "Socrates",
+    "quoteTextRu": "Будь таким, каким хочешь казаться",
+    "quoteAuthorRu": "Сократ"
     }, {
-    "quoteText": "The world is always in movement.",
-    "quoteAuthor": "V. Naipaul"
+    "quoteTextEn": "The world is always in movement",
+    "quoteAuthorEn": "V. Naipaul",
+    "quoteTextRu": "Мир всегда в движении",
+    "quoteAuthorRu": "В. Найпол"
     }, {
-    "quoteText": "Never mistake activity for achievement.",
-    "quoteAuthor": "John Wooden"
+    "quoteTextEn": "Never mistake activity for achievement",
+    "quoteAuthorEn": "John Wooden",
+    "quoteTextRu": "Никогда не путайте деятельность с достижением",
+    "quoteAuthorRu": "Джон Вуден"
     }, {
-    "quoteText": "What worries you masters you.",
-    "quoteAuthor": "Haddon Robinson"
+    "quoteTextEn": "What worries you masters you",
+    "quoteAuthorEn": "Haddon Robinson",
+    "quoteTextRu": "То, что тебя беспокоит, делает тебя сильнее",
+    "quoteAuthorRu": "Хэддон Робинсон"
     }, {
-    "quoteText": "One faces the future with ones past.",
-    "quoteAuthor": "Pearl Buck"
+    "quoteTextEn": "One faces the future with ones past",
+    "quoteAuthorEn": "Pearl Buck",
+    "quoteTextRu": "Человек смотрит в будущее своим прошлым",
+    "quoteAuthorRu": "Перл Бак"
     }, {
-    "quoteText": "Goals are the fuel in the furnace of achievement.",
-    "quoteAuthor": "Brian Tracy"
+    "quoteTextEn": "Goals are the fuel in the furnace of achievement",
+    "quoteAuthorEn": "Brian Tracy",
+    "quoteTextRu": "Цели - это топливо в печи достижений",
+    "quoteAuthorRu": "Брайан Трейси"
     }, {
-    "quoteText": "Who sows virtue reaps honour.",
-    "quoteAuthor": "Leonardo da Vinci"
+    "quoteTextEn": "Who sows virtue reaps honour",
+    "quoteAuthorEn": "Leonardo da Vinci",
+    "quoteTextRu": "Кто сеет добродетель, тот получает честь",
+    "quoteAuthorRu": "Леонардо да Винчи"
     }, {
-    "quoteText": "Be kind whenever possible. It is always possible.",
-    "quoteAuthor": "Dalai Lama"
+    "quoteTextEn": "Be kind whenever possible. It is always possible.",
+    "quoteAuthorEn": "Dalai Lama",
+    "quoteTextRu": "Будьте добры, когда это возможно. Это всегда возможно.",
+    "quoteAuthorRu": "Далай Лама"
     }, {
-    "quoteText": "Talk doesn't cook rice.",
-    "quoteAuthor": "Chinese proverb"
+    "quoteTextEn": "Talk doesn't cook rice",
+    "quoteAuthorEn": "Chinese proverb",
+    "quoteTextRu": "Одними разговорами рис не сваришь",
+    "quoteAuthorRu": "Китайская пословица"
     }, {
-    "quoteText": "He is able who thinks he is able.",
-    "quoteAuthor": "Buddha"
+    "quoteTextEn": "He is able who thinks he is able",
+    "quoteAuthorEn": "Buddha",
+    "quoteTextRu": "Способен тот, кто думает, что он способен",
+    "quoteAuthorRu": "Будда"
     }, {
-    "quoteText": "Be as you wish to seem.",
-    "quoteAuthor": "Socrates"
+    "quoteTextEn": "A goal without a plan is just a wish",
+    "quoteAuthorEn": "Larry Elder",
+    "quoteTextRu": "Цель без плана - всего лишь желание",
+    "quoteAuthorRu": "Ларри Элдер"
     }, {
-    "quoteText": "A goal without a plan is just a wish.",
-    "quoteAuthor": "Larry Elder"
+    "quoteTextEn": "To succeed, we must first believe that we can",
+    "quoteAuthorEn": "Michael Korda",
+    "quoteTextRu": "Чтобы добиться успеха, мы должны сначала поверить, что у нас это получится",
+    "quoteAuthorRu": "Майкл Корда"
     }, {
-    "quoteText": "To succeed, we must first believe that we can.",
-    "quoteAuthor": "Michael Korda"
+    "quoteTextEn": "Learn from yesterday, live for today, hope for tomorrow",
+    "quoteAuthorEn": "Albert Einstein",
+    "quoteTextRu": "Учитесь у вчерашнего дня, живите сегодняшним днем, надейтесь на завтрашний день",
+    "quoteAuthorRu": "Альберт Эйнштейн"
     }, {
-    "quoteText": "Learn from yesterday, live for today, hope for tomorrow.",
-    "quoteAuthor": "Albert Einstein"
+    "quoteTextEn": "A weed is no more than a flower in disguise",
+    "quoteAuthorEn": "James Lowell",
+    "quoteTextRu": "Сорняк - не более, чем замаскированный цветок",
+    "quoteAuthorRu": "Джеймс Лоуэлл"
     }, {
-    "quoteText": "A weed is no more than a flower in disguise.",
-    "quoteAuthor": "James Lowell"
+    "quoteTextEn": "Do, or do not. There is no try.",
+    "quoteAuthorEn": "Yoda",
+    "quoteTextRu": "Делай или не делай. Нет никакой попытки.",
+    "quoteAuthorRu": "Йода"
     }, {
-    "quoteText": "Do, or do not. There is no try.",
-    "quoteAuthor": "Yoda"
+    "quoteTextEn": "All serious daring starts from within",
+    "quoteAuthorEn": "Harriet Beecher Stowe",
+    "quoteTextRu": "Все серьезные дерзания начинаются изнутри",
+    "quoteAuthorRu": "Гарриет Бичер-Стоу"
     }, {
-    "quoteText": "All serious daring starts from within.",
-    "quoteAuthor": "Harriet Beecher Stowe"
+    "quoteTextEn": "The best teacher is experience learned from failures",
+    "quoteAuthorEn": "Byron Pulsifer",
+    "quoteTextRu": "Лучший учитель — это опыт, извлеченный из неудач",
+    "quoteAuthorRu": "Байрон Пулсифер"
     }, {
-    "quoteText": "The best teacher is experience learned from failures.",
-    "quoteAuthor": "Byron Pulsifer"
+    "quoteTextEn": "Think how hard physics would be if particles could think",
+    "quoteAuthorEn": "Murray Gell-Mann",
+    "quoteTextRu": "Подумайте, как тяжело было бы физике, если бы частицы могли думать",
+    "quoteAuthorRu": "Мюррей Гелл-Манн"
     }, {
-    "quoteText": "Think how hard physics would be if particles could think.",
-    "quoteAuthor": "Murray Gell-Mann"
+    "quoteTextEn": "Love is the flower you've got to let grow",
+    "quoteAuthorEn": "John Lennon",
+    "quoteTextRu": "Любовь - это цветок, которому нужно дать вырасти",
+    "quoteAuthorRu": "Джон Леннон"
     }, {
-    "quoteText": "Love is the flower you've got to let grow.",
-    "quoteAuthor": "John Lennon"
+    "quoteTextEn": "Don't wait. The time will never be just right.",
+    "quoteAuthorEn": "Napoleon Hill",
+    "quoteTextRu": "Не ждите. Время никогда не будет правильным.",
+    "quoteAuthorRu": "Наполеон Хилл"
     }, {
-    "quoteText": "Don't wait. The time will never be just right.",
-    "quoteAuthor": "Napoleon Hill"
+    "quoteTextEn": "One fails forward toward success",
+    "quoteAuthorEn": "Charles Kettering",
+    "quoteTextRu": "Кто-то терпит неудачу на пути к успеху",
+    "quoteAuthorRu": "Чарльз Кеттеринг"
     }, {
-    "quoteText": "One fails forward toward success.",
-    "quoteAuthor": "Charles Kettering"
+    "quoteTextEn": "Time is the wisest counsellor of all",
+    "quoteAuthorEn": "Pericles",
+    "quoteTextRu": "Время - самый мудрый советчик",
+    "quoteAuthorRu": "Перикл"
     }, {
-    "quoteText": "Time is the wisest counsellor of all.",
-    "quoteAuthor": "Pericles"
+    "quoteTextEn": "You give before you get",
+    "quoteAuthorEn": "Napoleon Hill",
+    "quoteTextRu": "Ты даешь, прежде чем получаешь",
+    "quoteAuthorRu": "Наполеон Хилл"
     }, {
-    "quoteText": "You give before you get.",
-    "quoteAuthor": "Napoleon Hill"
+    "quoteTextEn": "Wisdom begins in wonder",
+    "quoteAuthorEn": "Socrates",
+    "quoteTextRu": "Мудрость начинается с удивления",
+    "quoteAuthorRu": "Сократ"
     }, {
-    "quoteText": "Wisdom begins in wonder.",
-    "quoteAuthor": "Socrates"
+    "quoteTextEn": "Without courage, wisdom bears no fruit",
+    "quoteAuthorEn": "Baltasar Gracian",
+    "quoteTextRu": "Без мужества мудрость не приносит плодов",
+    "quoteAuthorRu": "Бальтасар Грациан"
     }, {
-    "quoteText": "Without courage, wisdom bears no fruit.",
-    "quoteAuthor": "Baltasar Gracian"
+    "quoteTextEn": "Change in all things is sweet",
+    "quoteAuthorEn": "Aristotle",
+    "quoteTextRu": "Перемена приятна во всем",
+    "quoteAuthorRu": "Аристотель"
     }, {
-    "quoteText": "Change in all things is sweet.",
-    "quoteAuthor": "Aristotle"
+    "quoteTextEn": "What you fear is that which requires action to overcome",
+    "quoteAuthorEn": "Byron Pulsifer",
+    "quoteTextRu": "Чего вы боитесь, так это того, что требует действий для преодоления",
+    "quoteAuthorRu": "Байрон Пулсифер"
     }, {
-    "quoteText": "What you fear is that which requires action to overcome.",
-    "quoteAuthor": "Byron Pulsifer"
+    "quoteTextEn": "When performance exceeds ambition, the overlap is called success",
+    "quoteAuthorEn": "Cullen Hightower",
+    "quoteTextRu": "Когда производительность превышает амбиции, избыток называется успехом",
+    "quoteAuthorRu": "Каллен Хайтауэр"
     }, {
-    "quoteText": "The best teacher is experience learned from failures.",
-    "quoteAuthor": "Byron Pulsifer"
+    "quoteTextEn": "When deeds speak, words are nothing",
+    "quoteAuthorEn": "African proverb",
+    "quoteTextRu": "Когда дела говорят, слова - ничто",
+    "quoteAuthorRu": "Африканская пословица"
     }, {
-    "quoteText": "When performance exceeds ambition, the overlap is called success.",
-    "quoteAuthor": "Cullen Hightower"
+    "quoteTextEn": "Real magic in relationships means an absence of judgement of others",
+    "quoteAuthorEn": "Wayne Dyer",
+    "quoteTextRu": "Настоящая магия в отношениях означает отсутствие суждения других людей",
+    "quoteAuthorRu": "Уэйн Дайер"
     }, {
-    "quoteText": "When deeds speak, words are nothing.",
-    "quoteAuthor": "African proverb"
+    "quoteTextEn": "I never think of the future. It comes soon enough.",
+    "quoteAuthorEn": "Albert Einstein",
+    "quoteTextRu": "Я никогда не думаю о будущем. Оно приходит достаточно скоро.",
+    "quoteAuthorRu": "Альберт Эйнштейн"
     }, {
-    "quoteText": "Real magic in relationships means an absence of judgement of others.",
-    "quoteAuthor": "Wayne Dyer"
+    "quoteTextEn": "Skill to do comes of doing",
+    "quoteAuthorEn": "Ralph Emerson",
+    "quoteTextRu": "Умение делать приходит от дела",
+    "quoteAuthorRu": "Ральф Эмерсон"
     }, {
-    "quoteText": "When performance exceeds ambition, the overlap is called success.",
-    "quoteAuthor": "Cullen Hightower"
+    "quoteTextEn": "Wisdom is the supreme part of happiness",
+    "quoteAuthorEn": "Sophocles",
+    "quoteTextRu": "Мудрость - высшая часть счастья",
+    "quoteAuthorRu": "Софокл"
     }, {
-    "quoteText": "I never think of the future. It comes soon enough.",
-    "quoteAuthor": "Albert Einstein"
+    "quoteTextEn": "I believe that every person is born with talent",
+    "quoteAuthorEn": "Maya Angelou",
+    "quoteTextRu": "Я верю, что каждый человек рождается с талантом",
+    "quoteAuthorRu": "Майя Энджелоу"
     }, {
-    "quoteText": "Skill to do comes of doing.",
-    "quoteAuthor": "Ralph Emerson"
+    "quoteTextEn": "Important principles may, and must, be inflexible",
+    "quoteAuthorEn": "Abraham Lincoln",
+    "quoteTextRu": "Важные принципы могут и должны быть неизменны",
+    "quoteAuthorRu": "Абрахам Линкольн"
     }, {
-    "quoteText": "Wisdom is the supreme part of happiness.",
-    "quoteAuthor": "Sophocles"
+    "quoteTextEn": "The undertaking of a new action brings new strength",
+    "quoteAuthorEn": "Richard Evans",
+    "quoteTextRu": "Принятие новых мер дает новые силы",
+    "quoteAuthorRu": "Ричард Эванс"
     }, {
-    "quoteText": "I believe that every person is born with talent.",
-    "quoteAuthor": "Maya Angelou"
+    "quoteTextEn": "The years teach much which the days never know",
+    "quoteAuthorEn": "Ralph Emerson",
+    "quoteTextRu": "Годы учат нас многому, о чем знать не желают дни",
+    "quoteAuthorRu": "Ральф Эмерсон"
     }, {
-    "quoteText": "Important principles may, and must, be inflexible.",
-    "quoteAuthor": "Abraham Lincoln"
+    "quoteTextEn": "Our distrust is very expensive",
+    "quoteAuthorEn": "Ralph Emerson",
+    "quoteTextRu": "Наше недоверие обходится нам очень дорого",
+    "quoteAuthorRu": "Ральф Эмерсон"
     }, {
-    "quoteText": "The undertaking of a new action brings new strength.",
-    "quoteAuthor": "Richard Evans"
+    "quoteTextEn": "All know the way; few actually walk it",
+    "quoteAuthorEn": "Bodhidharma",
+    "quoteTextRu": "Все знают дорогу; немногие на самом деле проходят ее",
+    "quoteAuthorRu": "Бодхидхарма"
     }, {
-    "quoteText": "I believe that every person is born with talent.",
-    "quoteAuthor": "Maya Angelou"
+    "quoteTextEn": "Great talent finds happiness in execution",
+    "quoteAuthorEn": "Johann Wolfgang von Goethe",
+    "quoteTextRu": "Большой талант находит счастье в исполнении",
+    "quoteAuthorRu": "Иоганн Вольфганг фон Гёте"
     }, {
-    "quoteText": "The years teach much which the days never know.",
-    "quoteAuthor": "Ralph Emerson"
+    "quoteTextEn": "Faith in oneself is the best and safest course",
+    "quoteAuthorEn": "Michelangelo",
+    "quoteTextRu": "Вера в себя самый лучший и безопасный путь",
+    "quoteAuthorRu": "Микеланджело"
     }, {
-    "quoteText": "Our distrust is very expensive.",
-    "quoteAuthor": "Ralph Emerson"
+    "quoteTextEn": "Courage is going from failure to failure without losing enthusiasm",
+    "quoteAuthorEn": "Winston Churchill",
+    "quoteTextRu": "Мужество - это способность идти сквозь череду неудач без потери энтузиазма",
+    "quoteAuthorRu": "Уинстон Черчилль"
     }, {
-    "quoteText": "All know the way; few actually walk it.",
-    "quoteAuthor": "Bodhidharma"
+    "quoteTextEn": "The two most powerful warriors are patience and time",
+    "quoteAuthorEn": "Leo Tolstoy",
+    "quoteTextRu": "Нет на свете сильнее двух воинов - терпения и времени",
+    "quoteAuthorRu": "Лев Толстой"
     }, {
-    "quoteText": "Great talent finds happiness in execution.",
-    "quoteAuthor": "Johann Wolfgang von Goethe"
+    "quoteTextEn": "Anticipate the difficult by managing the easy",
+    "quoteAuthorEn": "Lao Tzu",
+    "quoteTextRu": "Предвосхищайте трудности, управляя легкостями",
+    "quoteAuthorRu": "Лао-Цзы"
     }, {
-    "quoteText": "Faith in oneself is the best and safest course.",
-    "quoteAuthor": "Michelangelo"
+    "quoteTextEn": "Those who are free of resentful thoughts surely find peace",
+    "quoteAuthorEn": "Buddha",
+    "quoteTextRu": "Те, кто свободен от злобных мыслей, непременно обретут покой",
+    "quoteAuthorRu": "Будда"
     }, {
-    "quoteText": "Courage is going from failure to failure without losing enthusiasm.",
-    "quoteAuthor": "Winston Churchill"
+    "quoteTextEn": "A short saying often contains much wisdom",
+    "quoteAuthorEn": "Sophocles",
+    "quoteTextRu": "Короткая поговорка часто содержит много мудрости",
+    "quoteAuthorRu": "Софокл"
     }, {
-    "quoteText": "The two most powerful warriors are patience and time.",
-    "quoteAuthor": "Leo Tolstoy"
+    "quoteTextEn": "Only do what your heart tells you",
+    "quoteAuthorEn": "Princess Diana",
+    "quoteTextRu": "Делай только то, что говорит тебе сердце",
+    "quoteAuthorRu": "Принцесса Диана"
     }, {
-    "quoteText": "Anticipate the difficult by managing the easy.",
-    "quoteAuthor": "Lao Tzu"
+    "quoteTextEn": "Life is movement - we breathe, we eat, we walk, we move!",
+    "quoteAuthorEn": "John Pierrakos",
+    "quoteTextRu": "Жизнь есть движение - мы дышим, мы едим, мы ходим, мы двигаемся!",
+    "quoteAuthorRu": "Джон Пьерракос"
     }, {
-    "quoteText": "Those who are free of resentful thoughts surely find peace.",
-    "quoteAuthor": "Buddha"
+    "quoteTextEn": "No one can make you feel inferior without your consent",
+    "quoteAuthorEn": "Eleanor Roosevelt",
+    "quoteTextRu": "Никто не может вас заставить чувствовать себя униженным без вашего согласия",
+    "quoteAuthorRu": "Элеонора Рузвельт"
     }, {
-    "quoteText": "Talk doesn't cook rice.",
-    "quoteAuthor": "Chinese proverb"
+    "quoteTextEn": "Argue for your limitations, and sure enough they are yours",
+    "quoteAuthorEn": "Richard Bach",
+    "quoteTextRu": "Приведите доводы в пользу ваших ограничений, и вы увидите, что они тут же прилипнут к вам",
+    "quoteAuthorRu": "Ричард Бах"
     }, {
-    "quoteText": "A short saying often contains much wisdom.",
-    "quoteAuthor": "Sophocles"
+    "quoteTextEn": "Luck is what happens when preparation meets opportunity",
+    "quoteAuthorEn": "Seneca",
+    "quoteTextRu": "Удача - это то, что происходит, когда подготовка встречает возможность",
+    "quoteAuthorRu": "Сенека"
     }, {
-    "quoteText": "Only do what your heart tells you.",
-    "quoteAuthor": "Princess Diana"
+    "quoteTextEn": "Victory belongs to the most persevering",
+    "quoteAuthorEn": "Napoleon Bonaparte",
+    "quoteTextRu": "Победа принадлежит самым упорным",
+    "quoteAuthorRu": "Наполеон Бонапарт"
     }, {
-    "quoteText": "Life is movement-we breathe, we eat, we walk, we move!",
-    "quoteAuthor": "John Pierrakos"
+    "quoteTextEn": "Once you choose hope, anythings possible",
+    "quoteAuthorEn": "Christopher Reeve",
+    "quoteTextRu": "Как только ты выберешь надежду, все возможно",
+    "quoteAuthorRu": "Кристофер Рив"
     }, {
-    "quoteText": "No one can make you feel inferior without your consent.",
-    "quoteAuthor": "Eleanor Roosevelt"
-    }, {
-    "quoteText": "One fails forward toward success.",
-    "quoteAuthor": "Charles Kettering"
-    }, {
-    "quoteText": "Argue for your limitations, and sure enough theyre yours.",
-    "quoteAuthor": "Richard Bach"
-    }, {
-    "quoteText": "Luck is what happens when preparation meets opportunity.",
-    "quoteAuthor": "Seneca"
-    }, {
-    "quoteText": "Victory belongs to the most persevering.",
-    "quoteAuthor": "Napoleon Bonaparte"
-    }, {
-    "quoteText": "Once you choose hope, anythings possible.",
-    "quoteAuthor": "Christopher Reeve"
-    }, {
-    "quoteText": "Love all, trust a few, do wrong to none.",
-    "quoteAuthor": "William Shakespeare"
+    "quoteTextEn": "Love all, trust a few, do wrong to none",
+    "quoteAuthorEn": "William Shakespeare",
+    "quoteTextRu": "Люби всех, доверяй избранным, не делай зла никому",
+    "quoteAuthorRu": "Уильям Шекспир"
     }
 ]  

@@ -43,7 +43,7 @@
       </div>
     </div>
     <div class="weather">
-      <input type="text" class="city" />
+      <input type="text" value="Minsk" class="city" />
       <i class="weather-icon owf"></i>
       <div class="weather-error"></div>
       <div class="description-container">
@@ -70,9 +70,16 @@
   </main>
   <footer class="footer">
     <button class="change-quote"></button>
-    <div>
+    <div class="quote-block">
       <div class="quote"></div>
       <div class="author"></div>
+    </div>
+    <div class="language-wrapper">
+      <span class="lang-ru">RU</span>
+      <div class="switch">
+        <input type="checkbox" id="switcher" class="switch__input" checked>
+        <label for="switcher" class="switch__label lang-en">EN</label>
+      </div>
     </div>
   </footer>
   <script type="module" src="js/script.js"></script>
