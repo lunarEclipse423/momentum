@@ -31,9 +31,8 @@ window.onload = () => {
 const showTime = () => {
     const time = document.querySelector('.time');
     const date = new Date();
-    const timeLang = lang === 'en' ? 'en-US' : 'ru-RU';
 
-    time.textContent = date.toLocaleTimeString(timeLang);
+    time.textContent = date.toLocaleTimeString('ru-RU');
     showDate();
     showGreeting();
     setTimeout(showTime, 1000);
