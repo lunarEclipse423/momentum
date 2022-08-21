@@ -426,11 +426,11 @@ const showOrHidePlayList = () => {
 
     isPlayListShown = !isPlayListShown;
     if(isPlayListShown) {
-        widgetContainer.classList.add('widget-play-list_active');
+        widgetContainer.classList.add('widget-container_active');
         widget.classList.add('widget_active');
         playlist.classList.add('play-list_active');
     } else if (!isPlayListShown) {
-        widgetContainer.classList.remove('widget-play-list_active');
+        widgetContainer.classList.remove('widget-container_active');
         widget.classList.remove('widget_active');
         playlist.classList.remove('play-list_active');
     }

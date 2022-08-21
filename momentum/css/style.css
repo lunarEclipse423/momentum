@@ -81,10 +81,10 @@ body {
   z-index: 100;
 }
 
-.widget-play-list_active {
+.widget-container_active {
   opacity: 1;
   transform: translateY(45px);
-  z-index: 123456;
+  z-index: 100;
 }
 
 /* Volume */
@@ -137,12 +137,14 @@ body {
 /* Playlist */
 
 .play-list {
-  display: none;
+  /* display: none; */
+  visibility: hidden;
   text-align: left;
 }
 
 .play-list_active {
-  display: block;
+  visibility: visible;
+  /* display: block; */
 }
 
 .play-item {
